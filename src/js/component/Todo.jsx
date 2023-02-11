@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-const Home = () => {
+const Todo = () => {
   const [input, setInput] = useState("");
   const [items, setItems] = useState([]);
   const [style, setStyle] = useState('');
@@ -53,4 +53,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Todo;

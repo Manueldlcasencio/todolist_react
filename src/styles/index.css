@@ -25,10 +25,12 @@ h1 {
       0 20px 1px -9px rgba(0,0,0,0.15);
       /* Padding for demo purposes */
 }
+
 .card-footer {
     font-size: 15px;
     opacity: 50%;
-    text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
 
 input {
@@ -39,4 +41,10 @@ input {
 }
 p {
     margin:none;
+}
+.futer {
+    width:25rem;
+}
+.fuser {
+    border-bottom: 1px solid
 }
